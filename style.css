@@ -1,0 +1,53 @@
+body {
+    background: #212121;
+}
+.form {
+    font-family: Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 16px;
+    background: #f7f7f7;
+    border-radius: 10px;
+  }
+  .form h1 {
+    background: #424242;
+    padding: 20px 0;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    font-size:  25px;
+    border-radius: 10px 10px 0 0;
+  }
+  .form input[type="text"],
+  .form input[type="url"] {
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    border-radius: 50px;
+  }
+  .form input[type="text"]:focus,
+  .form input[type="url"]:focus {
+    box-shadow: 0 0 5px #5868bf;
+    padding: 3%;
+    border: 1px solid #5868bf;
+  }
+  
+  #qrcode-container{
+      display:none;
+  }
+  
+  .qrcode{
+    padding: 16px;
+  }
+  .qrcode img{
+    margin: 0 auto;
+  }
+  a {
+    cursor: pointer;
+  }
